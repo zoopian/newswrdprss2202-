@@ -1,0 +1,131 @@
+/*
+Theme Name: Newstag
+Theme URI: https://themeansar.com/free-themes/newstag-wordpress-theme/
+Author: Themeansar
+Author URI: https://themeansar.com
+Description: Newstag is a fast, clean, modern-looking Best Responsive News Magazine WordPress theme. The theme is fully widgetized, so users can manage the content by using easy to use widgets. Newstag is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. Newstag is SEO friendly, WPML,Gutenberg, translation and RTL ready. Live preview : https://demos.themeansar.com/newsair/newstag/ and documentation at https://docs.themeansar.com/docs/newsair/
+Version: 0.2
+Requires PHP: 7
+Tested up to: 6.3
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: newsair
+Text Domain: newstag
+Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
+
+Newstag WordPress Theme is child theme of Blogus, Copyright 2023 Themeansar
+Newstag is distributed under the terms of the GNU General Public License v3
+
+Newstag is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+a:focus {
+    outline: 1px solid;
+}
+.bs-headthree .bs-header-main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+}
+.bs-headthree .navbar-wp {
+    margin: 0;
+    z-index: 999;
+    transition: all 1s ease-out;
+    border-radius: 0;
+    min-height: 55px;
+    height: auto;
+}
+.bs-headthree .navbar-header {
+    height: auto;
+}
+.bs-headthree .navbar-brand {
+    margin-right: unset;
+} 
+.bs-headthree .bs-header-main .inner {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+}
+.bs-headthree .navbar-header {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.bs-headthree .bs-header-main .inner {
+    height: 150px;
+} 
+.bs-headthree .navbar-brand {
+    margin-right: unset;
+}
+.bs-headthree .right-nav a.subscribe-btn {
+    padding: 10px 15px ;
+}
+.bs-headthree .bs-menu-full a.subscribe-btn {
+    display: none;
+}
+.bs-headthree .navbar-wp .navbar-nav > li> a{
+    padding: 10px 15px;
+}
+.bs-headthree .switch .slider::before{
+    /* width: 35px;    
+    border-radius: 50%;
+    box-shadow: 0 2px 10px 0 #00000094; */
+}
+.bs-headthree .switch{
+    /* width: 35px; */
+}
+.bs-headthree.cont .navbar-wp {
+    padding: 5px;
+}
+.bs-headthree.cont .bs-menu-full {
+    z-index: 9999;
+}
+.bs-blog-post.three.sm .title {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.mainfeatured .wd-back {
+    background: UNSET;
+    box-shadow: unset;
+    padding: unset;
+}
+.col-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+[class*=col-grid-] {
+    display: grid;
+    grid-gap: 1.5rem;
+}
+.newsair-grid-column-posts .bs-blog-post.bshre {
+    box-shadow: unset;
+    margin-bottom: 0px;
+}
+.multi-post-widget .bs-blog-post.three.sm .title {
+    font-size: 16px;
+}
+.multi-post-widget .bs-blog-post.three.sm {
+    height: 223px;
+}
+.multi-post-widget .inner_columns.four .bs-blog-post.sm {
+    height: 470px;
+}
+
+.bs-default .desk-header .msearch
+{
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    .site-branding-text .site-title a {
+        color: #000 !important;
+        }
+}
+.navbar-toggler.x {
+    background: transparent;
+}
